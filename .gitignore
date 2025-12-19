@@ -1,9 +1,37 @@
+# Build outputs
 RSInfinitySetup.exe
 RSInfinity Setup.exe
+*.exe
+!Setup/Util/*.exe
+
+# NSIS generated
 Setup/Sections
+
+# Preset files (user-specific)
 Files/Preset/Apocalypse.ini
 Files/Preset/MonsterVision.ini
 Files/Preset/Weather.ini
 Files/Preset/meshedges.ini
 Files/Preset/RSInfinity Ultra.ini
 Files/Preset/Aidan's Preset.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup

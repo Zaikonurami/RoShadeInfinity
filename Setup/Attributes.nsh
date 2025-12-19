@@ -37,7 +37,7 @@ Var PresetPriority # Determine which preset should be loaded. Lower = higher pri
 VIProductVersion "${VERSION}.0"
 VIAddVersionKey "ProductName" "${NAME}"
 VIAddVersionKey "CompanyName" "${MANUFACTURER}"
-VIAddVersionKey "LegalCopyright" "Copyright (C) 2021 Zeal"
+VIAddVersionKey "LegalCopyright" "Copyright (C) 2025 Zaikonurami"
 VIAddVersionKey "ProductVersion" "${VERSION}"
 VIAddVersionKey "FileVersion" "${VERSION}"
 
