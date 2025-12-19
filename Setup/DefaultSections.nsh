@@ -3,13 +3,13 @@
 !macro PresetFiles SourcePath OutPath
     SectionGroup /e "Base Presets"
         Section "High Quality" High
-            !insertmacro AddPreset ${SourcePath} ${OutPath} "RoShade High.ini" 2
+            !insertmacro AddPreset ${SourcePath} ${OutPath} "RSInfinity High.ini" 2
         SectionEnd
         Section "Low Quality" Low
-            !insertmacro AddPreset ${SourcePath} ${OutPath} "RoShade Low.ini" 1
+            !insertmacro AddPreset ${SourcePath} ${OutPath} "RSInfinity Low.ini" 1
         SectionEnd
         Section "Medium Quality" Medium
-            !insertmacro AddPreset ${SourcePath} ${OutPath} "RoShade Medium.ini" 0
+            !insertmacro AddPreset ${SourcePath} ${OutPath} "RSInfinity Medium.ini" 0
         SectionEnd
     SectionGroupEnd
     SectionGroup /e "Zeal's Reshade Presets (old)"

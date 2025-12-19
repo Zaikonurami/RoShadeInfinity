@@ -9,8 +9,8 @@ InstType full
 !define MUI_WELCOMEFINISHPAGE_BITMAP "Graphics\wizardImage.bmp"
 
 /* Welcome Page */
-!define MUI_WELCOMEPAGE_TITLE "Roshade Installation"
-!define MUI_WELCOMEPAGE_TEXT "This will install Reshade and the Roshade preset on your computer.$\n$\nThe shaders will automatically be download from github during installation.$\n$\nClick Next to continue."
+!define MUI_WELCOMEPAGE_TITLE "RSInfinity Installation"
+!define MUI_WELCOMEPAGE_TEXT "This will install Reshade and the RSInfinity preset on your computer.$\n$\nThe shaders will automatically be download from github during installation.$\n$\nClick Next to continue."
 !insertmacro MUI_PAGE_WELCOME
 
 /* License Page */
@@ -34,7 +34,7 @@ FunctionEnd
 !insertmacro MUI_PAGE_INSTFILES
 
 /* Finish Page */
-!define MUI_FINISHPAGE_TEXT "Roshade has been installed on your computer.$\n$\nThe changes will be in effect next time you launch Roblox.$\n$\nClick Finish to close Setup."
+!define MUI_FINISHPAGE_TEXT "RSInfinity has been installed on your computer.$\n$\nThe changes will be in effect next time you launch Roblox.$\n$\nClick Finish to close Setup."
 !define MUI_FINISHPAGE_LINK "Join the Discord server"
 !define MUI_FINISHPAGE_LINK_LOCATION "https://discord.gg/sjSDVrCjFG"
 !define MUI_FINISHPAGE_SHOWREADME_NOTCHECKED

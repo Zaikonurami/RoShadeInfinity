@@ -10,11 +10,11 @@ Section Uninstall
     ReadRegStr $0 HKCU "${SELFREGLOC}" "RobloxPath"
     DeleteRegKey HKCU "${SELFREGLOC}"
     Delete "$INSTDIR\AppIcon.ico"
-    Delete "$INSTDIR\Uninstall Roshade.exe"
+    Delete "$INSTDIR\Uninstall RSInfinity.exe"
     Delete "$0\${RENDERAPI}"
     Delete "$0\Reshade.ini"
     RMDir /r "$0\reshade-shaders"
-    RMDir /r "$0\roshade"
+    RMDir /r "$0\rsinfinity"
 SectionEnd
 
 Function un.onInit

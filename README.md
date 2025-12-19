@@ -1,6 +1,6 @@
-# Roshade [![Build](https://github.com/bituq/Roshade/actions/workflows/nsis.yaml/badge.svg?branch=main)](https://github.com/bituq/Roshade/actions/workflows/nsis.yaml) [![Roshade](https://badgen.net/badge/visit/Roshade.com/orange)](https://Roshade.com/) ![Downloads](https://img.shields.io/github/downloads/bituq/Roshade/total) [![NSIS](https://badgen.net/badge/NSIS/3.08/cyan)](https://nsis.sourceforge.io/Download)
+# RSInfinity [![Build](https://github.com/bituq/RSInfinity/actions/workflows/nsis.yaml/badge.svg?branch=main)](https://github.com/bituq/RSInfinity/actions/workflows/nsis.yaml) [![RSInfinity](https://badgen.net/badge/visit/RSInfinity.com/orange)](https://RSInfinity.com/) ![Downloads](https://img.shields.io/github/downloads/bituq/RSInfinity/total) [![NSIS](https://badgen.net/badge/NSIS/3.08/cyan)](https://nsis.sourceforge.io/Download)
 
-Roshade is an installation package that makes it easy to correctly install Reshade presets and shaders to the Roblox directory. With Roshade, you can quickly and easily customize your Roblox experience with advanced visual effects.
+RSInfinity is an installation package that makes it easy to correctly install Reshade presets and shaders to the Roblox directory. With RSInfinity, you can quickly and easily customize your Roblox experience with advanced visual effects.
 
 ## Key features:
 - Uses the registry to locate and uninstall Roblox, avoiding any incorrect uninstalls.
@@ -10,9 +10,9 @@ Roshade is an installation package that makes it easy to correctly install Resha
 - Automatically installs the required shaders from GitHub.
 
 ## Getting Started
-To get started with Roshade, you'll first need to download the latest release from the [releases](https://github.com/bituq/Roshade/releases) page. Once you've downloaded the installer, simply run it and follow the prompts to install Roshade. Once installation is complete, you'll be able to launch Roblox and start customizing your visual experience with the included Reshade presets and shaders.
+To get started with RSInfinity, you'll first need to download the latest release from the [releases](https://github.com/bituq/RSInfinity/releases) page. Once you've downloaded the installer, simply run it and follow the prompts to install RSInfinity. Once installation is complete, you'll be able to launch Roblox and start customizing your visual experience with the included Reshade presets and shaders.
 
-If you have any questions or issues with Roshade, please feel free to open an issue on the GitHub repository, or visit the [Roshade website](https://roshade.com/) for more information.
+If you have any questions or issues with RSInfinity, please feel free to open an issue on the GitHub repository, or visit the [RSInfinity website](https://rsinfinity.com/) for more information.
 
 ## Building the source
 The installer is written in [NSIS](https://nsis.sourceforge.io/Download "Download NSIS"), a popular open-source tool for creating Windows installers. To build the source, you'll need to have NSIS installed on your machine. I highly recommend reading through the [NSIS reference](https://nsis.sourceforge.io/Docs/Contents.html) before proceeding.

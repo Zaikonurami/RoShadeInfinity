@@ -9,7 +9,7 @@
 
 !macro RequiredFiles SourcePath OutPath
     SectionGroup "-Required"
-        Section "-Roshade"
+        Section "-RSInfinity"
             SectionIn 1 RO
 
             SetOutPath $INSTDIR
@@ -56,11 +56,11 @@
             !undef PRESETID
             FindClose $0
             RMDir /r ${PRESETTEMPFOLDER}
-            RMDir /r "$RobloxPath\roshade"
+            RMDir /r "$RobloxPath\rsinfinity"
 
-            CreateDirectory "$RobloxPath\roshade"
-            SetOutPath "$RobloxPath\roshade"
-            File /r "..\Files\Roshade\*"
+            CreateDirectory "$RobloxPath\rsinfinity"
+            SetOutPath "$RobloxPath\rsinfinity"
+            File /r "..\Files\RSInfinity\*"
 
             delete "$RobloxPath\opengl32.dll"
             delete "$RobloxPath\d3d9.dll"

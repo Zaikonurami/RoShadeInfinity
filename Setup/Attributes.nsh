@@ -1,17 +1,17 @@
 # Important
-InstallDir "$LOCALAPPDATA\Roshade"
+InstallDir "$LOCALAPPDATA\RSInfinity"
 
 
 # Attributes
-!define VERSION "1.4.1"
-!define MANUFACTURER "Zeal"
-!define NAME "Roshade"
+!define VERSION "2.0.0"
+!define MANUFACTURER "Zaikonurami"
+!define NAME "RSInfinity"
 !define ROBLOXREGLOC "SOFTWARE\ROBLOX Corporation\Environments\roblox-player"
 !define SELFREGLOC "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\${NAME}"
-!define UninstallerExe "Uninstall Roshade.exe"
-!define HELPLINK "https://discord.gg/sjSDVrCjFG"
-!define ABOUTLINK "https://Roshade.com/"
-!define UPDATELINK "https://github.com/bituq/Roshade/releases"
+!define UninstallerExe "Uninstall RSInfinity.exe"
+!define HELPLINK "https://rsinfinity.software/go/discord"
+!define ABOUTLINK "https://rsinfinity.software/"
+!define UPDATELINK "https://github.com/Zaikonurami/RSInfinity/releases"
 !define RENDERAPI "d3d11.dll"
 
 # Directories
@@ -19,11 +19,11 @@ InstallDir "$LOCALAPPDATA\Roshade"
 !define RESHADESOURCE "..\Files\Reshade"
 !define PRESETSOURCE "..\Files\Preset"
 !define PRESETTEMPFOLDER "$TEMP\Presets"
-!define TEMPFOLDER "$TEMP\Zeal"
-!define LOGDIRECTORY "$TEMP\roshade"
+!define TEMPFOLDER "$TEMP\ZaikoTemp - RSInfinity"
+!define LOGDIRECTORY "$TEMP\rsinfinity"
 
 # Files
-!define SPLASHICON "$PLUGINSDIR\Roshade.gif"
+!define SPLASHICON "$PLUGINSDIR\RSInfinity.gif"
 !define SHADERSINI "$PLUGINSDIR\Shaders.ini"
 !define RESHADEINI "$PLUGINSDIR\Reshade.ini"
 !define APPICON "$INSTDIR\AppIcon.ico"
@@ -43,6 +43,6 @@ VIAddVersionKey "FileVersion" "${VERSION}"
 
 Name "${NAME}"
 Caption "$(^Name) Installation"
-Outfile "..\RoshadeSetup.exe"
+Outfile "..\RSInfinitySetup.exe"
 BrandingText "${MANUFACTURER}"
 CRCCHECK force
