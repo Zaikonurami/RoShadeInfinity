@@ -2,6 +2,8 @@
 !include ModernUI.nsh
 !include DefaultSections.nsh
 !include InstallationFiles.nsh
+!include CompatibilityCheck.nsh
+!include ExternalTools.nsh
 
 RequestExecutionLevel admin
 
@@ -50,6 +52,9 @@ Function .onInit
 
     StrCmp $RobloxPath "" 0 +2
     call RobloxNotFoundError
+
+    ; Run compatibility check before proceeding
+    !insertmacro RunCompatibilityCheck
 
     ReadRegStr $R0 HKCU ${SELFREGLOC} "Version"
     ${GetSectionNames} ${SHADERSINI} DefineRepositories
